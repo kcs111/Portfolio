@@ -1,0 +1,134 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Kyla's Journey</title>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="../css/styles.css" />
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+    <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+         <!-- navigation -->
+         <nav>
+             <!-- logo -->
+             <a href="#" class="logo"> Kyla's Journey</a>
+             <!-- menu -->
+             <ul>
+                 <li><a href="#" class="active"> Home </a>  </li>
+                 <li><a href="#"> About Me</a></li>
+                 <li><a href="#"> Contact Me</a></li>
+                 <li><a href="#"> My Work</a></li>
+             </ul>
+             <!-- bars -->
+             <div class="toggle"></div>
+         </nav>
+         <!-- text -->
+         <div class="text-container">
+             <p> Welcome,</p>
+             <p>
+                 I&#8217;M KYLA
+             </p>
+             <p> Bootcamp Survivor <br> & Student</p>
+             <button class="hire-btn"> Hire me</button>
+             <button class="down-cv"> Download CV</button>
+         </div>
+        <!-- model -->
+        <img alt="model" class="model" src="../IMG_2616 2.JPG">
+    </section>
+    <div class="about-container">
+        <!-- image -->
+        <img src="../IMG_2616 2.JPG" class="img-thumbnail" />
+        <!-- about me -->
+        <div class="about-text">
+            <p> About Me</p>
+            <p> Future Developer & Designer</p>
+            <p> I am Kyla Scott an aspiring artist, but while that warms up I took an interest in computers and technology a whole different type of creativity </p>
+            <p> If you would like to hire me and bring some fresh creativity to your team I need a job</p>
+            <button>Hire Me</button>
+            <button> Download CV</button>
+        </div>
+    </div>
+    <!-- Service-container -->
+    <div class="services">
+        <div class="services-text">
+    <p>Services</p>
+    <p> My Qualities</p>
+    <p> These are the langauges and services I provide as well as my featured work</p>
+        </div>
+        <div class="box-container">
+    <!-- box 1 -->
+        <div class="box-1">
+        <span> 1</span>
+        <p class="heading">Project 1</p>
+        <p class="details"> This is my first Project! </p>
+        <a href="https://nelliafc.github.io/HighLife/">
+        <button> Read More</button>
+        </a>
+        </div>
+     <!-- box 2 -->
+        <div class="box-2">
+        <span>2</span>
+        <p class="heading"> Web devlopment</p>
+        <p class="details">if you need work done right I can spot a probelm from a mile away look at all this debugging</p>
+        <button>Read More</button>
+        </div>
+         <!-- box 3 -->
+         <div class="box-3">
+         <span>3</span>
+         <p class="heading">JQuery</p>
+         <p class="details"> If you need a professional looka nd feel I am here to help</p>
+        <button>Read More</button>
+         </div>
+        </div>
+    </div>
+    <!-- if you have a project in mind please reach out -->
+    <div class="contact-me">
+        <p> If You Have A Job In Mind Please Contact Me!</p>
+        <button>Contact Me</button>
+    </div>
+    <!-- footer heading -->
+    <footer>
+        <p>My Social</p>
+        <!-- text -->
+        <p> All my Professional Socials</p>
+        <!-- socials -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- copyright -->
+        <p class="copyright">Copyright by Kyla Scott</p>
+    </footer>
+    <!-- social-attach-bar -->
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+</body>
+<!-- Jquery used to make it active -->
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+
+</html>
